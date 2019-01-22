@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+.container {
+  margin: 0 auto;
+  width: 420px;
+}
+
 body {
   background-color: white;
   font-size: 16px;
@@ -32,30 +37,39 @@ nav h1 {
 
 nav .user-circle {
   text-align: right;
-  font-size: 16px;
+  font-size: 30px;
 }
 
 .arrow-left{
   font-size: 16px;
   color: blue;
   height: 0%;
-  padding-top: 3.2%;
+  padding-top: 4%;
   display: inline-block;
   font-family: Helvetica;
 }
 
 .fa-chevron-left {
   display: inline-block;
+  font-size: 20px;
 }
 
 .fa-chevron-left p {
   font-family: Helvetica;
   display: inline;
+  font-size: 16px;
 }
 
 .fa-user-circle{
   color: blue;
   display: inline-block;
+}
+
+.Back {
+  font-size: 18px;
+}
+.location-header h1{
+  font-size: 18px;
 }
 
 status-bar{
@@ -69,9 +83,12 @@ status-bar{
 }
 
 .Direction {
+  width: 403px;
   padding: 15px;
   background-color: blue;
   color: white;
+  overflow: hidden;
+  padding-top: 18px;
 }
 
 .row {
@@ -158,10 +175,10 @@ h5 {
 
 .search-info{
   display: table;
-  vertical-align: middle;
+  vertical-align: right;
   width: 100%;
   color: blue;
-  border-top: 1px solid grey;
+  border-top: 1px solid black;
 }
 
 .search-info a {
@@ -170,6 +187,24 @@ h5 {
   text-align: center;
 }
 
+.location {
+  border-bottom: 1px solid black;
+  padding-left: 15px;
+}
+
 .location:hover{
   background-color: lightgrey;
 }
+
+@media (min-width: 738px) {
+   .container {
+    width: 80%;
+}
+
+.preview {
+  float: right;
+  height: 200px;
+  margin: 1% 1%;
+  width: 48%;
+ }
+
