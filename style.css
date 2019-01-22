@@ -4,7 +4,11 @@
 
 .container {
   margin: 0 auto;
-  width: 420px;
+  width: 480px;
+}
+
+.map-section {
+ height: 198px;
 }
 
 body {
@@ -83,7 +87,7 @@ status-bar{
 }
 
 .Direction {
-  width: 403px;
+  width: 407px;
   padding: 15px;
   background-color: blue;
   color: white;
@@ -127,7 +131,7 @@ status-bar{
   flex-shrink: 2;
   flex-grow: 2;
   width: 33%;
-  padding: 15px;
+  padding: 12px;
 }
 
 .row li.arrow {
@@ -172,13 +176,12 @@ h5 {
   color: white;
 }
 
-
 .search-info{
   display: table;
-  vertical-align: right;
   width: 100%;
   color: blue;
   border-top: 1px solid black;
+  padding-top: 10px;
 }
 
 .search-info a {
@@ -188,7 +191,7 @@ h5 {
 }
 
 .location {
-  border-bottom: 1px solid black;
+  border-bottom: 2px solid black;
   padding-left: 15px;
 }
 
@@ -207,4 +210,3 @@ h5 {
   margin: 1% 1%;
   width: 48%;
  }
-
