@@ -5,10 +5,12 @@
 .container {
   margin: 0 auto;
   width: 480px;
+  background-color: ivory;
+  width: 100%;
 }
 
 .map-section {
- height: 198px;
+ height: 195px;
 }
 
 body {
@@ -83,12 +85,10 @@ status-bar{
   margin-right: 50px;
   padding-top: 13px;
   padding-bottom: 10%;
-  background-color: #0b0449;
-
 }
 
 .Direction {
-  width: 406px;
+  width: 400px;
   padding: 12px;
   background-color: blue;
   color: white;
