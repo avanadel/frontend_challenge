@@ -5,7 +5,7 @@
 .container {
   margin: 0 auto;
   width: 480px;
-  background-color: ivory;
+  background-color: #fff0f059;
   width: 100%;
 }
 
@@ -57,7 +57,7 @@ nav .user-circle {
 }
 
 .fa-chevron-left {
-  display: inline-block;
+  display: inline;
   font-size: 20px;
 }
 
@@ -70,6 +70,11 @@ nav .user-circle {
 .fa-user-circle{
   color: blue;
   display: inline-block;
+}
+
+.fa-chevron-right {
+  display: inline;
+  width: 20%;
 }
 
 .Back {
@@ -128,7 +133,7 @@ status-bar{
 }
 
 .row li {
-  display: inline-block;
+  display: inline;
   flex-shrink: 2;
   flex-grow: 2;
   width: 33%;
@@ -204,7 +209,6 @@ h5 {
    .container {
     width: 80%;
 }
-
 .preview {
   float: right;
   height: 200px;
