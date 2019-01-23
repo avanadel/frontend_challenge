@@ -18,8 +18,9 @@ body {
   font-family: Helvetica, sans-serif;
 }
 
-#main-container{
+#main-container {
   max-width: 400px;
+  width: 100%;
 }
 
 nav {
