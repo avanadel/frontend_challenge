@@ -5,7 +5,7 @@
 .container {
   margin: 0 auto;
   width: 480px;
-  background-color: #fff0f059;
+  background-color: WhiteSmoke;
   width: 100%;
 }
 
@@ -17,7 +17,7 @@ body {
   background-color: white;
   font-size: 16px;
   margin: 0;
-  font-family: Helvetica, sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 #main-container {
@@ -26,14 +26,13 @@ body {
 }
 
 nav {
-  display: table;
   vertical-align: middle;
   width: 100%;
 }
 
 nav div {
-  display: table-cell;
-  width: 33%;
+  width: 30%;
+  display: inline-block;
 }
 
 nav h1 {
@@ -45,15 +44,21 @@ nav h1 {
 nav .user-circle {
   text-align: right;
   font-size: 30px;
+  width: 10%;
+}
+
+element.style {
+  width: 70%;
 }
 
 .arrow-left{
   font-size: 16px;
-  color: blue;
+  color: DodgerBlue;
   height: 0%;
   padding-top: 4%;
   display: inline-block;
-  font-family: Helvetica;
+  font-family: 'Roboto', sans-serif;
+  width: 15%;
 }
 
 .fa-chevron-left {
@@ -62,24 +67,26 @@ nav .user-circle {
 }
 
 .fa-chevron-left p {
-  font-family: Helvetica;
+  font-family: 'Roboto', sans-serif;
   display: inline;
-  font-size: 16px;
+  font-size: 22px;
 }
 
 .fa-user-circle{
-  color: blue;
+  color: DodgerBlue;
   display: inline-block;
 }
 
 .fa-chevron-right {
-  display: inline;
-  width: 20%;
+  display: inline-block;
+  width: 30%;
 }
 
 .Back {
   font-size: 18px;
+  color: DodgerBlue;
 }
+
 .location-header h1{
   font-size: 18px;
 }
@@ -95,7 +102,7 @@ status-bar{
 .Direction {
   width: 400px;
   padding: 12px;
-  background-color: blue;
+  background-color: DodgerBlue;
   color: white;
   overflow: hidden;
   padding-top: 18px;
@@ -116,20 +123,20 @@ status-bar{
     text-align: center;
 }
 
-.busnumbers h5.blue{
-  background: blue;
+.busnumbers h5.DodgerBlue {
+  background: DodgerBlue;
 }
 
-.busnumbers h5.blue {
-  background: blue;
+.busnumbers h5.DodgerBlue {
+  background: DodgerBlue;
 }
 
-.busnumbers h5.blue {
-  background: blue;
+.busnumbers h5.DodgerBlue {
+  background: DodgerBlue;
 }
 
-.busnumbers h5.grey {
-  background: grey;
+.busnumbers h5.silver{
+  background: silver;
 }
 
 .row li {
@@ -161,7 +168,7 @@ font-size: 12px;
   padding: 8px;
   position: relative;
   top: -3px;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   display: inline-block;
   padding-left: 17px;
   font-weight: bold;
@@ -169,23 +176,36 @@ font-size: 12px;
 
 h3 {
   font-size: 14px;
+  font-weight: bold;
 }
 
 h4 {
   font-size: 12px;
     color: black;
     position: relative;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family:'Roboto', sans-serif;
 }
 
 h5 {
   color: white;
 }
 
+h6 {
+  font-weight: bold;
+  color: red;
+}
+
+h7 {
+  font-size: 14px;
+  color: red;
+  font-weight: bold;
+  font-family:'Roboto', sans-serif;
+}
+
 .search-info{
-  display: table;
+  display: inline-block;
   width: 100%;
-  color: blue;
+  color: DodgerBlue;
   border-top: 1px solid black;
   padding-top: 10px;
 }
@@ -215,4 +235,3 @@ h5 {
   margin: 1% 1%;
   width: 48%;
  }
- 
