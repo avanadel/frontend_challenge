@@ -213,8 +213,8 @@ h7 {
 }
 
 .location {
-  border-bottom: 2px solid black;
-  padding-left: 15px;
+  border-bottom: 1px solid #ccc;
+  padding-left: 1px;
 }
 
 .location:hover{
