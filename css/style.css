@@ -109,7 +109,7 @@ status-bar{
 .Direction {
   width: 400px;
   padding: 12px;
-  background-color: DodgerBlue;
+  background-color: #1eb6ff;
   color: white;
   overflow: hidden;
   padding-top: 18px;
@@ -206,7 +206,7 @@ h6 {
   color: red;
 }
 
-h7 {
+h6 {
   font-size: 14px;
   color: red;
   font-weight: bold;
