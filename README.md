@@ -1,6 +1,6 @@
 For the final stage in a three part project called Busy Bus, I was tasked with helping create a mobile app called BusyBus, an application operated by the local city transit system that serves thousands of commuters in a large city. 
 
-This was the project brief: Riders have been complaining about the bus stop Washington & State, which serves seven bus lines. Because rushing to bus stop to board the respective bus is not always reliable, riders demand to know when the next arriving bus is in addition to how much time they have to get to the bus stop. Through user research, wireframing, prototyping, branding using guidance from the Apple Human Interface Guidelines, I provided users with a minimum viable product so that they can navigate BusyBus with ease when planning their respective commutes.
+Riders have been complaining about the bus stop Washington & State, which serves seven bus lines. Because rushing to bus stop to board the respective bus is not always reliable, riders demand to know when the next arriving bus is in addition to how much time they have to get to the bus stop. Through user research, wireframing, prototyping, branding using guidance from the Apple Human Interface Guidelines, I provided users with a minimum viable product so that they can navigate BusyBus with ease when planning their respective commutes.
 
 Part One: UX Fundamentals
 
