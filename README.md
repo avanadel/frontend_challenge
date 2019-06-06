@@ -13,4 +13,13 @@ C) User Stories: https://docs.google.com/spreadsheets/d/1TML0yt4XyjMq0nX-1OdQ1do
 D) Paper Prototype Sketches: https://www.dropbox.com/s/b1ejtrgkvn7h3hj/BusyBus-Prototype%28Revised%29.JPG?dl=0
                              https://www.dropbox.com/s/dax6idj7vsnd4jo/BusyBus-Prototype.JPG?dl=0
 
-E) Digital Prototype which I tested on three users: https://avanadel.github.io/frontend_challenge/
+E) Digital Prototype which I tested on three users:https://www.figma.com/proto/JJLWsrf6742YLXKjnEX0UTya/Digital-Prototype-BusyBus?node-id=1%3A2&viewport=205%2C343%2C0.756141185760498&scaling=min-zoom
+
+Part Two: Visual Design
+
+A) I created a digital, high fidelity mockup from one of the three screen, paper prototypes I designed. The mockup followed the human-interfaces guidelines for iOS: https://www.figma.com/proto/CxKtLbNT67Te5pR033JOWmWa/Visual-Challenge?node-id=2%3A0&viewport=95%2C375%2C0.6413043737411499&scaling=scale-down
+
+Part Three: Frontend Coding
+
+A) I recreated the visual design in HTML & CSS, adding both scroll and hover features. Below is the final, coded project:
+https://avanadel.github.io/frontend_challenge/
